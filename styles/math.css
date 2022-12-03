@@ -1,0 +1,66 @@
+/*Expression related class*/
+.math_expression rect {
+  fill: #28a7452e;
+}
+
+.math_expression text {
+  fill: black;
+}
+
+.form-check {
+  text-align: left !important;
+}
+
+.text-whitespace-preserve {
+  white-space: pre;
+}
+
+/*Fraction related class*/
+.frac {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  letter-spacing: 0.001em;
+  text-align: center;
+}
+
+  .frac > span {
+       display: block;
+       padding: 0.3em;
+  }
+
+  .frac span.bottom {
+       border-top: thin solid black;
+  }
+
+  .frac span.symbol {
+       display: none;
+  }
+
+/*Number visible and Hide*/
+.number-hide{
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+} 
+
+.number-visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.number-visible-50 {
+  opacity: 0.5;
+  visibility: visible;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+/*Font bold and normal*/
+.number-font-normal {
+  font-weight: normal;
+} 
+
+.number-font-bold {
+  font-weight: bold;
+} 
